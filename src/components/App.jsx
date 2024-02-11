@@ -1,16 +1,19 @@
+import Footer from './Footer/Footer';
+import Header from './Header/Header';
+import HeroPoster from './Hero/HeroPoster';
+import ForGroup from './Section/ForGroup.jsx/ForGroup';
+import HallOffFame from './Section/HallOffFame/HallOffFame';
+
+import { AppStyled } from './App.styled';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <AppStyled>
+      <Header />
+      <HeroPoster />
+      <ForGroup/>
+      <HallOffFame/>
+      <Footer />
+    </AppStyled>
   );
 };
