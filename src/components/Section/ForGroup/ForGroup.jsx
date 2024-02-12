@@ -1,8 +1,10 @@
 import React from 'react';
+import { ForGroupStyled } from './ForGroup.styled';
+
 
 export default function ForGroup() {
   return (
-    <ForGroup>
+    <ForGroupStyled>
       <h3 className='forGroup-title'>Our history</h3>
       <p className='forGroup-text'>
         Всім привіт, ми україномовний гурт будетак. І ми це все заварили , коли
@@ -15,6 +17,6 @@ export default function ForGroup() {
         але якось певні медіа ресурси охрестили нас виконавцями саме такого
         напряму. А ми і не проти!
       </p>
-    </ForGroup>
+    </ForGroupStyled>
   );
 }

@@ -15,7 +15,9 @@ export const HeroPosterStyled = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: bottom center;
     border-radius: 10px;
+
   }
 
   .hero-subject {
@@ -46,11 +48,13 @@ export const HeroPosterStyled = styled.div`
     z-index: 3;
     height: 60px;
     width: 200px;
+    cursor: pointer;
   }
 
   .hero-btn-text{
     font-weight: bold;
     color: black;
     font-size: 20px;
+    
   }
 `;
