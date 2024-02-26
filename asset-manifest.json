@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ProjectBudeTak/static/css/main.7acaea2f.css",
-    "main.js": "/ProjectBudeTak/static/js/main.18fdc5a1.js",
+    "main.css": "/ProjectBudeTak/static/css/main.ef209c31.css",
+    "main.js": "/ProjectBudeTak/static/js/main.195687fa.js",
     "index.html": "/ProjectBudeTak/index.html",
-    "main.7acaea2f.css.map": "/ProjectBudeTak/static/css/main.7acaea2f.css.map",
-    "main.18fdc5a1.js.map": "/ProjectBudeTak/static/js/main.18fdc5a1.js.map"
+    "main.ef209c31.css.map": "/ProjectBudeTak/static/css/main.ef209c31.css.map",
+    "main.195687fa.js.map": "/ProjectBudeTak/static/js/main.195687fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.18fdc5a1.js"
+    "static/css/main.ef209c31.css",
+    "static/js/main.195687fa.js"
   ]
 }
