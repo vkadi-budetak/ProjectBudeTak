@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const HeroPosterStyled = styled.div`
-  /* padding: 300px 0; */
-  border: 1px solid #d7e3ff;
-  border-radius: 10px;
+
+  /* border: 1px solid #d7e3ff; */
+  /* border-radius: 10px; */
   position: relative;
-  min-height: 900px;
+  min-height: 800px;
   /* max-width: 1158px  */
 
   .video {
@@ -17,12 +17,11 @@ export const HeroPosterStyled = styled.div`
     object-fit: cover;
     object-position: bottom center;
     border-radius: 10px;
-
   }
 
   .hero-subject {
     margin-left: 40px;
-    padding: 230px 80px
+    padding: 230px 80px;
   }
 
   .hero-title {
@@ -33,7 +32,7 @@ export const HeroPosterStyled = styled.div`
     z-index: 1;
   }
 
-  .hero-text{
+  .hero-text {
     margin-top: 100px;
     font-size: 16px;
     position: absolute;
@@ -51,10 +50,9 @@ export const HeroPosterStyled = styled.div`
     cursor: pointer;
   }
 
-  .hero-btn-text{
+  .hero-btn-text {
     font-weight: bold;
     color: black;
     font-size: 20px;
-    
   }
 `;

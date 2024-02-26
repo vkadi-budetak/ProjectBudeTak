@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
-  padding: 30px 0;
   text-transform: uppercase;
 
   .header-title {
@@ -12,8 +11,9 @@ export const HeaderStyled = styled.header`
   }
 
   .header-logo {
-    color: wheat;
-    font-size: 30px;
+    width: 100%;
+    height: 60px;
+    
     
   }
 
@@ -25,7 +25,7 @@ export const HeaderStyled = styled.header`
   }
 
   .header-iteam{
-    color: red;
+    color: var(--prmary-color-black);
     cursor: pointer;
   }
 
