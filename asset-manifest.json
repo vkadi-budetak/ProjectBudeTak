@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/ProjectBudeTak/static/css/main.ef209c31.css",
-    "main.js": "/ProjectBudeTak/static/js/main.195687fa.js",
+    "main.css": "/ProjectBudeTak/static/css/main.9706f777.css",
+    "main.js": "/ProjectBudeTak/static/js/main.1e4daae7.js",
+    "static/media/Instagram.svg": "/ProjectBudeTak/static/media/Instagram.98f77f176e6d4c833f6abc92a6598950.svg",
     "index.html": "/ProjectBudeTak/index.html",
-    "main.ef209c31.css.map": "/ProjectBudeTak/static/css/main.ef209c31.css.map",
-    "main.195687fa.js.map": "/ProjectBudeTak/static/js/main.195687fa.js.map"
+    "static/media/Telegram.svg": "/ProjectBudeTak/static/media/Telegram.da27cc0037e7ae9c6dfe0dd57a4526c5.svg",
+    "static/media/FaceBook.svg": "/ProjectBudeTak/static/media/FaceBook.0b16d36de6f4182bc184ca5c805a110f.svg",
+    "main.9706f777.css.map": "/ProjectBudeTak/static/css/main.9706f777.css.map",
+    "main.1e4daae7.js.map": "/ProjectBudeTak/static/js/main.1e4daae7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef209c31.css",
-    "static/js/main.195687fa.js"
+    "static/css/main.9706f777.css",
+    "static/js/main.1e4daae7.js"
   ]
 }
