@@ -10,13 +10,14 @@ export const HeroPosterStyled = styled.div`
 
   .video {
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     object-fit: cover;
     object-position: bottom center;
-    border-radius: 10px;
+    
+    transform: translateX(-50%);
   }
 
   .hero-subject {

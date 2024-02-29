@@ -3,7 +3,9 @@
 :root {
   --primary-color-white: #ffffff;
   --primary-color-black: #000000;
+  --primary-color-footer: #111;
   --secondary-color-black: rgba(18, 20, 23, 0.5);
+  
 
 }
 

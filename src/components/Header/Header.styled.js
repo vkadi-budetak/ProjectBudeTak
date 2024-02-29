@@ -13,8 +13,6 @@ export const HeaderStyled = styled.header`
   .header-logo {
     width: 100%;
     height: 60px;
-    
-    
   }
 
   .header-iteams {
