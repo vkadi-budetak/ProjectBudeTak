@@ -10,7 +10,7 @@ export default function HallOffFame() {
         <div>
           <h4>Vkadi</h4>
           <p>Kravchenko Vladyslav</p>
-          <img src="/ProjectBudeTak/img/vkadi.jpg" alt="Artist-Vkadi" />
+          <img src="/ProjectBudeTak/img/vkadi.png" alt="Artist-Vkadi" />
           <ul>
             <li>
               <a href="https://www.instagram.com/vkadi_budetak/" target="_blank" rel="noreferrer" >
@@ -22,7 +22,7 @@ export default function HallOffFame() {
         <div>
           <h4>Bujidog</h4>
           <p>Bilokin Dmytro</p>
-          <img src="/ProjectBudeTak/img/bujidog.jpg" alt="Artist-Bujidog" />
+          <img src="/ProjectBudeTak/img/bujidog.png" alt="Artist-Bujidog" />
           <ul>
             <li>
               <a href="https://www.instagram.com/bujidog_budetak/" target="_blank" rel="noreferrer">

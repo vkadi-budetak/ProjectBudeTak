@@ -33,7 +33,7 @@ export default function MusicPlaylist() {
             >
               <img
                 className="playlist-img"
-                src="/ProjectBudeTak/img/MusicPlaylist/luli.jpg"
+                src="/ProjectBudeTak/img/MusicPlaylist/luli.png"
                 alt="Card"
               />
             </a>
@@ -48,7 +48,7 @@ export default function MusicPlaylist() {
             >
               <img
                 className="playlist-img"
-                src="/ProjectBudeTak/img/MusicPlaylist/згадую.jpg"
+                src="/ProjectBudeTak/img/MusicPlaylist/згадую.png"
                 alt="Card"
               />
             </a>
@@ -63,7 +63,7 @@ export default function MusicPlaylist() {
             >
               <img
                 className="playlist-img"
-                src="/ProjectBudeTak/img/MusicPlaylist/я_бачу.jpg"
+                src="/ProjectBudeTak/img/MusicPlaylist/я_бачу.png"
                 alt="Card"
               />
             </a>
@@ -78,7 +78,7 @@ export default function MusicPlaylist() {
             >
               <img
                 className="playlist-img"
-                src="/ProjectBudeTak/img/MusicPlaylist/ніч.jpg"
+                src="/ProjectBudeTak/img/MusicPlaylist/ніч.png"
                 alt="Card"
               />
             </a>
@@ -93,7 +93,7 @@ export default function MusicPlaylist() {
             >
               <img
                 className="playlist-img"
-                src="/ProjectBudeTak/img/MusicPlaylist/прогнози.jpg"
+                src="/ProjectBudeTak/img/MusicPlaylist/прогнози.png"
                 alt="Card"
               />
             </a>
