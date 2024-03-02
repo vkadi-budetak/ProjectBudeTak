@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const HallOffFameStyled = styled.div `
+margin-top: 60px;
+background-color: var(--primary-color-black);
 
 .items {
     display: flex;
@@ -15,4 +17,12 @@ img {
     object-fit: cover;
 
 }
+
+
+
+
+
+
+
+
 `

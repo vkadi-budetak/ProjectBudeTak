@@ -37,10 +37,9 @@ p {
 }
 
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
-  
-  /* padding: 0;
-  margin: 0; */
 }
 
 button {
@@ -66,7 +65,7 @@ img {
   height: auto;
 }
 
-.body-scroll-lock {
+/* .body-scroll-lock {
   overflow: hidden;
 }
 
@@ -91,4 +90,4 @@ img {
 
 .active {
   color: rgba(255, 255, 255, 0.6) !important;
-}
+} */

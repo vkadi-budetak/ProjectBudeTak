@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const FooterStyled = styled.div`
+margin-top: 60px;
 background-color: var(--primary-color-footer);
+
 
 .footer-title {
     display: flex;

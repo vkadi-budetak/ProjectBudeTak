@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ForGroupStyled = styled.div`
-  margin-top: 50px;
+margin-top: 60px;
+
   color: var(--primary-color-black);
   font-size: 14px;
   padding: 30px;
