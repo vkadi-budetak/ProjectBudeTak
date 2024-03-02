@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ProjectBudeTak/static/css/main.32f5d584.css",
-    "main.js": "/ProjectBudeTak/static/js/main.fb1edbbb.js",
+    "main.js": "/ProjectBudeTak/static/js/main.cbe0f373.js",
     "static/media/Instagram.svg": "/ProjectBudeTak/static/media/Instagram.98f77f176e6d4c833f6abc92a6598950.svg",
     "index.html": "/ProjectBudeTak/index.html",
     "static/media/Telegram.svg": "/ProjectBudeTak/static/media/Telegram.da27cc0037e7ae9c6dfe0dd57a4526c5.svg",
     "static/media/FaceBook.svg": "/ProjectBudeTak/static/media/FaceBook.0b16d36de6f4182bc184ca5c805a110f.svg",
     "main.32f5d584.css.map": "/ProjectBudeTak/static/css/main.32f5d584.css.map",
-    "main.fb1edbbb.js.map": "/ProjectBudeTak/static/js/main.fb1edbbb.js.map"
+    "main.cbe0f373.js.map": "/ProjectBudeTak/static/js/main.cbe0f373.js.map"
   },
   "entrypoints": [
     "static/css/main.32f5d584.css",
-    "static/js/main.fb1edbbb.js"
+    "static/js/main.cbe0f373.js"
   ]
 }
