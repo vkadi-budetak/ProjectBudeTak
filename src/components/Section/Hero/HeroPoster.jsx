@@ -13,10 +13,11 @@ export default function HeroPoster() {
         </video>
       </div>
       <div className="hero-subject">
-        <h2 className="hero-title">New music release</h2>
-        <p className="hero-text">Download the track</p>
+          <h2 className="hero-title">Замовити виступ гурту</h2>
+
+          {/* <p className="hero-text">Заповни форму</p> */}
         <button className="hero-btn">
-          <span className="hero-btn-text">Start</span>
+          <span className="hero-btn-text">Замовити</span>
         </button>
       </div>
     </HeroPosterStyled>

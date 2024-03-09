@@ -24,6 +24,20 @@ margin-top: 60px;
     margin-right: auto;
   }
 
+  .forGroup-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    font-style: italic;
+  }
+
+  .forGroup-title-text {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 38px;
+    
+  }
+
   .forGroup-content {
     display: flex;
     grid-column-gap: 10px;
@@ -31,6 +45,7 @@ margin-top: 60px;
     grid-row-gap: 10px;
     align-items: center;
     padding: 5px;
+    margin-top: 60px;
   }
 
   .forGroup-text {

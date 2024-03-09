@@ -7,22 +7,21 @@ export default function Header() {
     <HeaderStyled>
       <nav className="header-title ">
         <a href="./index.html">
-        <img className="header-logo" src="/ProjectBudeTak/img/logo_black.png" alt="BudeTakLogo"/>
+          <img
+            className="header-logo"
+            src="/ProjectBudeTak/img/logo/logo_black.png"
+            alt="BudeTakLogo"
+          />
         </a>
         <ul className="header-iteams">
           <li className="list">
             <a className="header-iteam " href="./index.html">
-              Music
+              Сcollaboration
             </a>
           </li>
           <li className="list">
             <a className="header-iteam " href="./index.html">
-              Photo
-            </a>
-          </li>
-          <li className="list">
-            <a className="header-iteam " href="./index.html">
-              Clips
+              Contacts
             </a>
           </li>
         </ul>

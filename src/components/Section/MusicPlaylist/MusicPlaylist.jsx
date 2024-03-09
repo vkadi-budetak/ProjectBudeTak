@@ -6,7 +6,7 @@ import '@splidejs/react-splide/css';
 export default function MusicPlaylist() {
   return (
     <MusicPlaylistStyled>
-      <h3>Музичний плейліст</h3>
+      <h3 className="forGroup-title"><span className="forGroup-title-text">Музичний</span> плейліст</h3>
 
       <div className="playlist-content">
         <Splide

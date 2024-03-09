@@ -1,15 +1,15 @@
 import React from 'react';
 import { FooterStyled } from './Footer.styled';
-import {ReactComponent as Instagram} from "../../../src/icons/Footer/Instagram.svg"
-import {ReactComponent as FaceBook} from "../../../src/icons/Footer/FaceBook.svg"
-import {ReactComponent as Telegram} from "../../../src/icons/Footer/Telegram.svg"
+import {ReactComponent as Instagram} from "../../../icons/Footer/Instagram.svg"
+import {ReactComponent as FaceBook} from "../../../icons/Footer/FaceBook.svg"
+import {ReactComponent as Telegram} from "../../../icons/Footer/Telegram.svg"
 
 export default function Footer() {
   return (
     <FooterStyled>
       <div className='footer-title'>
         <a href="./index.html">
-        <img className="footer-logo" src="/ProjectBudeTak/img/logo_white.png" alt="BudeTakLogo"/>
+        <img className="footer-logo" src="/ProjectBudeTak/img/logo/logo_white.png" alt="BudeTakLogo"/>
         </a>
         <p className='footer-text'>
         Слухайте українську музику, підписуйтесь на наші канали, щоб не пропустити

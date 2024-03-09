@@ -1,8 +1,8 @@
 import { AppContainerStyled } from './App.styled';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import HeroPoster from './Hero/HeroPoster';
-import MusicPlaylist from './MusicPlaylist/MusicPlaylist';
+import Footer from './Section/Footer/Footer';
+import Header from './Section/Header/Header';
+import HeroPoster from './Section/Hero/HeroPoster';
+import MusicPlaylist from './Section/MusicPlaylist/MusicPlaylist';
 import ForGroup from './Section/ForGroup/ForGroup';
 
 import HallOffFame from './Section/HallOffFame/HallOffFame';

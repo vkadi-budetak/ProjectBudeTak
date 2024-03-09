@@ -21,28 +21,39 @@ export const HeroPosterStyled = styled.div`
   }
 
   .hero-subject {
-    margin-left: 40px;
-    padding: 230px 80px;
+    margin-left: 130px;
+    padding: 180px 80px;
+    color: var(--primary-color-white);
+    
   }
 
   .hero-title {
-    font-size: 45px;
+    font-family: Averta,Arial,sans-serif;
+    width: 300px;
+    font-size: 55px;
     text-transform: uppercase;
     hyphens: none;
     position: absolute;
     z-index: 1;
+ 
   }
 
   .hero-text {
-    margin-top: 100px;
+    font-family: Averta,Arial,sans-serif;
+    font-style: italic;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 230px;
+    
     position: absolute;
     z-index: 2;
   }
 
+
   .hero-btn {
-    margin-top: 135px;
-    border: 1px solid black;
+    margin-top: 270px;
+    border: 1px solid white;
     border-radius: 50px;
     position: absolute;
     z-index: 3;
@@ -55,5 +66,12 @@ export const HeroPosterStyled = styled.div`
     font-weight: bold;
     color: black;
     font-size: 20px;
+
+    font-family: Averta,Arial,sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 230px;
   }
 `;
