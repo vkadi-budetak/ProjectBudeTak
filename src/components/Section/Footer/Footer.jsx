@@ -15,8 +15,9 @@ export default function Footer() {
         Слухайте українську музику, підписуйтесь на наші канали, щоб не пропустити
 жодного релізу!
         </p>
-      </div>
-      <div>
+
+
+        <div>
         <ul className='footer-social-items'>
           <li>
           <a href="https://www.instagram.com/bude_tak/" target="_blank" rel="noreferrer" >
@@ -35,6 +36,8 @@ export default function Footer() {
           </li>
         </ul>
       </div>
+      </div>
+      
     </FooterStyled>
   );
 }

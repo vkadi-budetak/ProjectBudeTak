@@ -7,12 +7,13 @@ background-color: var(--primary-color-footer);
 
 .footer-title {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    justify-content: center;
+    /* flex-wrap: wrap;
+    gap: 15px; */
 }
 
 .footer-logo {
-    width: 100%;
+    /* width: 100%; */
     height: 60px;
     color: white;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import { HeaderStyled } from './Header.styled';
 
@@ -6,23 +7,23 @@ export default function Header() {
   return (
     <HeaderStyled>
       <nav className="header-title ">
-        <a href="./index.html">
+        <NavLink to='/'>
           <img
             className="header-logo"
             src="/ProjectBudeTak/img/logo/logo_black.png"
             alt="BudeTakLogo"
           />
-        </a>
+        </NavLink>
         <ul className="header-iteams">
           <li className="list">
-            <a className="header-iteam " href="./index.html">
-              Сcollaboration
-            </a>
+            <NavLink to="/collaboration" className="header-iteam ">
+              Сollaboration
+            </NavLink>
           </li>
           <li className="list">
-            <a className="header-iteam " href="./index.html">
+            <span className="header-iteam">
               Contacts
-            </a>
+            </span>
           </li>
         </ul>
       </nav>

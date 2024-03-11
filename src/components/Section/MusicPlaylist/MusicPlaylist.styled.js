@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const MusicPlaylistStyled = styled.div`
 height: auto;
@@ -26,10 +26,22 @@ margin-top: 60px;
     flex-wrap: nowrap;
     justify-content: center;
     margin-top: 60px;
+
+    & > .splide {
+        padding-bottom: 50px;
+    }
+
+ .splide__pagination {
+
+    &__page {
+        background: black;
+    }
+ }
+
 }
 
 .playlist-img {
-    width: 310px;
+    width: 100%;
     height:380px;
     object-fit: cover;
 }
@@ -57,6 +69,4 @@ margin-top: 60px;
     }
 
 
-`
-
-
+`;

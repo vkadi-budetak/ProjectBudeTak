@@ -12,10 +12,9 @@ export default function MusicPlaylist() {
         <Splide
           options={{
             rewind: true,
-            width: 930,
-            height: 450,
-            gap: 20,
-            autoWidth: true,
+            perPage: 3,
+            perMove: 1,
+            gap: 25,
             arrows: false,
             pagination: true,
             focus: 'center',

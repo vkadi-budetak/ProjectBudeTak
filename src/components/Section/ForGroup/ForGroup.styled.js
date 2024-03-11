@@ -1,20 +1,25 @@
 import styled from 'styled-components';
 
 export const ForGroupStyled = styled.div`
-margin-top: 60px;
-
-  color: var(--primary-color-black);
-  font-size: 14px;
-  padding: 30px;
+position: relative;
+    margin-top: 60px;
+    color: var(--primary-color-black);
+    font-size: 14px;
+    padding: 30px;
 
   .forGroup-fon {
+    height: 100%;
     position: absolute;
-    z-index: 1;
+    /* z-index: 1; */
+    left: 0;
+    top: 0;
+    width: 100%;
   }
 
   .forGroup-img-fon {
-    width: 100vb;
-    height: 300px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .forGroup-container {
