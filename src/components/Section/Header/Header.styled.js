@@ -8,6 +8,8 @@ export const HeaderStyled = styled.header`
   margin-left: auto;
   margin-right: auto;
   padding: 5px 300px;
+  position: relative;
+    z-index: 1;
 
   .header-title {
     display: flex;

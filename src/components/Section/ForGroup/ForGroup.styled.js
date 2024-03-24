@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const ForGroupStyled = styled.div`
-position: relative;
-    margin-top: 60px;
-    color: var(--primary-color-black);
-    font-size: 14px;
-    padding: 30px;
+  position: relative;
+  margin-top: 60px;
+  color: var(--primary-color-black);
+  font-size: 14px;
+  padding: 30px;
 
   .forGroup-fon {
     height: 100%;
@@ -40,7 +40,6 @@ position: relative;
     font-size: 45px;
     font-weight: 600;
     line-height: 38px;
-    
   }
 
   .forGroup-content {

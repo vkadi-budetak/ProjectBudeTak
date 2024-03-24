@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { HeaderStyled } from './Header.styled';
+import ContactcModal from '../Modal/ContactModal/ContactModal';
 
 export default function Header() {
   return (
@@ -21,9 +22,7 @@ export default function Header() {
             </NavLink>
           </li>
           <li className="list">
-            <span className="header-iteam">
-              Contacts
-            </span>
+            <ContactcModal/>
           </li>
         </ul>
       </nav>
