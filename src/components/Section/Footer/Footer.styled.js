@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const FooterStyled = styled.div`
-margin-top: 60px;
+/* margin-top: 60px; */
+margin-top: auto;
 background-color: var(--primary-color-footer);
 
 

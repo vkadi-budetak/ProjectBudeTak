@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
 export const AppContainerStyled = styled.div`
-/* padding: 30px; */
+min-height: 100vh;
+display: flex;
+flex-direction: column;
 `;

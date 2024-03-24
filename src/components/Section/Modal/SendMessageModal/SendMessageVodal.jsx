@@ -4,19 +4,42 @@ import {
   SendMessageVodalStyled,
 } from './SendMessageVodal.styled';
 
-export default function SendMessageVodal() {
-  // const [isModalOpen, setModalOpen] = useState(false);
-  // const closeModal = () => {
-  //   setModalOpen(false);
+export default function SendMessageVodal( {setModalOpen} ) {
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
+
+  // useEffect(() => {
+  //   const handleKeyDown = event => {
+  //     if (event.code === 'Escape') {
+  //       closeModal();
+  //     }
+  //   };
+  //   window.addEventListener('keydown', handleKeyDown);
+
+  //   return () => {
+  //     window.removeEventListener('keydown', handleKeyDown);
+  //   };
+  // }, [closeModal]);
+
+  // const handleOverlayClick = event => {
+  //   if (event.currentTarget === event.target) {
+  //     closeModal();
+  //   }
   // };
+
+
 
   return (
     <SendMessageVodalStyled>
       <ContentStyled>
-        <span className="close-btn">&times;</span>
-        <h3>Шапка</h3>
+        <span className="close-btn" onClick={closeModal}>&times;</span>
+        <h3>Заповни форму</h3>
+        <p>Перейди за посиланням</p>
         <div>
-          Натисни на відправити, закріпи свою демві і напиши про себе: .....
+          Натисни на відправити, закріпи свою демку і напиши про себе: .....
         </div>
 
         <button>

@@ -26,7 +26,7 @@ export default function HeroPoster() {
         <button className="hero-btn" onClick={openModal}>
           <span className="hero-btn-text">Замовити</span>
         </button>
-        {isModalOpen && <SendMessageVodal />}
+        {isModalOpen && <SendMessageVodal setModalOpen={setModalOpen} />}
       </div>
     </HeroPosterStyled>
   );
