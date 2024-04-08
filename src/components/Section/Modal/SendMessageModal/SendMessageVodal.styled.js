@@ -15,11 +15,11 @@ export const SendMessageVodalStyled = styled.div`
   z-index: 10;
 `;
 
-
 export const ContentStyled = styled.div`
   position: relative;
   height: auto;
-  max-width: 541px;
+  /* max-width: 541px; */
+  
   max-height: 90vh;
   overflow-y: auto;
   background-color: #ffffff;
@@ -32,8 +32,9 @@ export const ContentStyled = styled.div`
   color: black;
 
   @media (min-width: 1440px) {
-      width: 592px;
-    padding: 32px 24px;
+      width: 900px;
+      height: 900px;
+      padding: 32px 24px;
   }
 
   @media (min-width: 768px) and (max-width: 1439px) {
@@ -82,6 +83,20 @@ export const ContentStyled = styled.div`
     path {
       stroke: #ff9d43;
     }
+  }
+
+  .modal-text {
+    position: relative;
+  height: auto;
+  max-width: 541px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: #ffffff;
+  padding: 145px 24px 24px 24px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.1;
+  color: black;
   }
 `;
 

@@ -11,13 +11,13 @@ export default function Footer() {
         <a href="./index.html">
         <img className="footer-logo" src="/ProjectBudeTak/img/logo/logo_white.png" alt="BudeTakLogo"/>
         </a>
-        <p className='footer-text'>
-        Слухайте українську музику, підписуйтесь на наші канали, щоб не пропустити
-жодного релізу!
-        </p>
-
-
-        <div>
+        <div className='footer-text-container'>
+          <p className='footer-text'>
+          Слухайте українську музику, підписуйтесь на наші канали, щоб не пропустити
+          жодного релізу!
+          </p>
+        <div className='footer-socail'>
+          <p className='footer-text-social'>Соціальні мережі:</p>
         <ul className='footer-social-items'>
           <li>
           <a href="https://www.instagram.com/bude_tak/" target="_blank" rel="noreferrer" >
@@ -35,6 +35,7 @@ export default function Footer() {
             </a>
           </li>
         </ul>
+      </div>
       </div>
       </div>
       

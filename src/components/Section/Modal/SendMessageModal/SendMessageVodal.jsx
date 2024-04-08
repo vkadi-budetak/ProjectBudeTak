@@ -4,12 +4,10 @@ import {
   SendMessageVodalStyled,
 } from './SendMessageVodal.styled';
 
-export default function SendMessageVodal( {setModalOpen} ) {
-
+export default function SendMessageVodal({ setModalOpen }) {
   const closeModal = () => {
     setModalOpen(false);
   };
-
 
   // useEffect(() => {
   //   const handleKeyDown = event => {
@@ -30,21 +28,23 @@ export default function SendMessageVodal( {setModalOpen} ) {
   //   }
   // };
 
-
-
   return (
     <SendMessageVodalStyled>
       <ContentStyled>
-        <span className="close-btn" onClick={closeModal}>&times;</span>
-        <h3>Заповни форму</h3>
-        <p>Перейди за посиланням</p>
-        <div>
-          Натисни на відправити, закріпи свою демку і напиши про себе: .....
-        </div>
+        <span className="close-btn" onClick={closeModal}>
+          &times;
+        </span>
+        <div className='modal-text'>
+          <h3>Заповни форму</h3>
+          <p>Перейди за посиланням</p>
+          <div>
+            Натисни на відправити, закріпи свою демку і напиши про себе: .....
+          </div>
 
-        <button>
-          <a href="mailto:budetak.music@gmail.com">Відправити пропозицію</a>
-        </button>
+          <button>
+            <a href="mailto:budetak.music@gmail.com">Відправити пропозицію</a>
+          </button>
+        </div>
       </ContentStyled>
     </SendMessageVodalStyled>
   );

@@ -7,8 +7,7 @@ export default function HallOffFame() {
     <HallOffFameStyled>
       <div className='items'>
         <div>
-          <img src="/ProjectBudeTak/img/artist/vkadi.png" alt="Artist-Vkadi" />
-          <div className='HallOffFame-subtitle'>
+        <div className='HallOffFame-subtitle'>
             <h4 className="HallOffFame-title">Vkadi</h4>
             <p className="HallOffFame-title-text">Kravchenko Vladyslav</p>
             <ul>
@@ -19,18 +18,23 @@ export default function HallOffFame() {
               </li>
             </ul>
           </div>
+          <img src="/ProjectBudeTak/img/artist/vkadi.png" alt="Artist-Vkadi" />
+          
         </div>
         <div>
-          <img src="/ProjectBudeTak/img/artist/bujidog.png" alt="Artist-Bujidog" />
+        <div className='HallOffFame-subtitle'>
           <h4 className="HallOffFame-title">Bujidog</h4>
-          <p className="HallOffFame-title-text">Bilokin Dmytro</p>
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/bujidog_budetak/" target="_blank" rel="noreferrer">
-              <Instagram/>
-              </a>
-            </li>
-          </ul>
+            <p className="HallOffFame-title-text">Bilokin Dmytro</p>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/bujidog_budetak/" target="_blank" rel="noreferrer">
+                <Instagram/>
+                </a>
+              </li>
+            </ul>
+        </div>
+          <img src="/ProjectBudeTak/img/artist/bujidog.png" alt="Artist-Bujidog" />
+          
         </div>
       </div>
     </HallOffFameStyled>

@@ -1,16 +1,15 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const HallOffFameStyled = styled.div `
-margin-top: 60px;
-background-color: var(--primary-color-black);
+export const HallOffFameStyled = styled.div`
+  margin-top: 60px;
+  background-color: var(--primary-color-black);
 
-.HallOffFame-title {
+  .HallOffFame-title {
     font-family: Averta, Arial, sans-serif;
     color: white;
     font-size: 25px;
     font-weight: 600;
     line-height: 38px;
-    
   }
 
   .HallOffFame-title-text {
@@ -22,31 +21,30 @@ background-color: var(--primary-color-black);
     line-height: 25px;
   }
 
-.items {
+  .items {
+    padding: 20px;
     display: flex;
     gap: 50px;
     justify-content: center;
-}
+  }
 
-.HallOffFame-subtitle {
+  .HallOffFame-subtitle {
+    display: grid;
+    justify-content: center;
+    /* background-color: black; */
+    /* min-width: 10px; */
+    /* border: solid 1px white; */
+    border-radius: 5px;
+    margin: 750px 15px;
+
     position: absolute;
     z-index: 1;
-}
+  }
 
-img {
+  img {
     height: 874px;
     max-width: 100%;
     border-radius: 35px;
     object-fit: cover;
-
-
-}
-
-
-
-
-
-
-
-
-`
+  }
+`;
