@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/ProjectBudeTak/static/css/main.50a9cecd.css",
-    "main.js": "/ProjectBudeTak/static/js/main.d8e8dbc8.js",
+    "main.js": "/ProjectBudeTak/static/js/main.dac00367.js",
     "static/css/222.6336d019.chunk.css": "/ProjectBudeTak/static/css/222.6336d019.chunk.css",
-    "static/js/222.a4b6c443.chunk.js": "/ProjectBudeTak/static/js/222.a4b6c443.chunk.js",
+    "static/js/222.7f348b9d.chunk.js": "/ProjectBudeTak/static/js/222.7f348b9d.chunk.js",
     "static/js/914.3430f184.chunk.js": "/ProjectBudeTak/static/js/914.3430f184.chunk.js",
     "static/js/827.87eb11c2.chunk.js": "/ProjectBudeTak/static/js/827.87eb11c2.chunk.js",
     "static/media/Instagram.svg": "/ProjectBudeTak/static/media/Instagram.98f77f176e6d4c833f6abc92a6598950.svg",
@@ -11,14 +11,14 @@
     "static/media/Telegram.svg": "/ProjectBudeTak/static/media/Telegram.da27cc0037e7ae9c6dfe0dd57a4526c5.svg",
     "static/media/FaceBook.svg": "/ProjectBudeTak/static/media/FaceBook.0b16d36de6f4182bc184ca5c805a110f.svg",
     "main.50a9cecd.css.map": "/ProjectBudeTak/static/css/main.50a9cecd.css.map",
-    "main.d8e8dbc8.js.map": "/ProjectBudeTak/static/js/main.d8e8dbc8.js.map",
+    "main.dac00367.js.map": "/ProjectBudeTak/static/js/main.dac00367.js.map",
     "222.6336d019.chunk.css.map": "/ProjectBudeTak/static/css/222.6336d019.chunk.css.map",
-    "222.a4b6c443.chunk.js.map": "/ProjectBudeTak/static/js/222.a4b6c443.chunk.js.map",
+    "222.7f348b9d.chunk.js.map": "/ProjectBudeTak/static/js/222.7f348b9d.chunk.js.map",
     "914.3430f184.chunk.js.map": "/ProjectBudeTak/static/js/914.3430f184.chunk.js.map",
     "827.87eb11c2.chunk.js.map": "/ProjectBudeTak/static/js/827.87eb11c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50a9cecd.css",
-    "static/js/main.d8e8dbc8.js"
+    "static/js/main.dac00367.js"
   ]
 }
