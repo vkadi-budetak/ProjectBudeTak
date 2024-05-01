@@ -1,9 +1,7 @@
-import styled from "styled-components";
-
+import styled from 'styled-components';
 
 export const ContactStyled = styled.div`
-
-position: relative;
+  position: relative;
 
   /* width: 100vw;
   height: 100vh;
@@ -19,14 +17,16 @@ position: relative;
   z-index: 10; */
 
   .contact-list {
-position: absolute;
-top: 100%;
-background-color: white;
-padding: 15px;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    padding: 15px;
+  }
 
+  .contact-iteam:hover, :focus {
+background-color: red;
   }
 `;
-
 
 // export const ContentStyled = styled.div`
 //   position: relative;
