@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ProjectBudeTak/static/css/main.50a9cecd.css",
-    "main.js": "/ProjectBudeTak/static/js/main.dac00367.js",
+    "main.js": "/ProjectBudeTak/static/js/main.b5dfb91d.js",
     "static/css/222.6336d019.chunk.css": "/ProjectBudeTak/static/css/222.6336d019.chunk.css",
     "static/js/222.7f348b9d.chunk.js": "/ProjectBudeTak/static/js/222.7f348b9d.chunk.js",
     "static/js/914.3430f184.chunk.js": "/ProjectBudeTak/static/js/914.3430f184.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/Telegram.svg": "/ProjectBudeTak/static/media/Telegram.da27cc0037e7ae9c6dfe0dd57a4526c5.svg",
     "static/media/FaceBook.svg": "/ProjectBudeTak/static/media/FaceBook.0b16d36de6f4182bc184ca5c805a110f.svg",
     "main.50a9cecd.css.map": "/ProjectBudeTak/static/css/main.50a9cecd.css.map",
-    "main.dac00367.js.map": "/ProjectBudeTak/static/js/main.dac00367.js.map",
+    "main.b5dfb91d.js.map": "/ProjectBudeTak/static/js/main.b5dfb91d.js.map",
     "222.6336d019.chunk.css.map": "/ProjectBudeTak/static/css/222.6336d019.chunk.css.map",
     "222.7f348b9d.chunk.js.map": "/ProjectBudeTak/static/js/222.7f348b9d.chunk.js.map",
     "914.3430f184.chunk.js.map": "/ProjectBudeTak/static/js/914.3430f184.chunk.js.map",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.50a9cecd.css",
-    "static/js/main.dac00367.js"
+    "static/js/main.b5dfb91d.js"
   ]
 }
